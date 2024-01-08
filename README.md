@@ -1,7 +1,7 @@
 ﻿# selenium-python-soucedemo
 UI Test Automation using Selenium with Python on soucedemo web-site:
 
-1. UI test for performing a simple flowScenario (Selenium with Python).
+1. UI test for performing a simple flow-Scenario (using Selenium + Python).
 2. Project demonstrates the ability to make UI automation on website.
     - I tried to follow the Page Object Model (POM) Architecture, including: 
 a Base-Page, Page Class and Test Cases.
