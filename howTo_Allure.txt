@@ -1,0 +1,44 @@
+# After adding running relevant requirements:
+|>  pip install -r requirements.txt
+
+# Verify you are compatible:
+|>  pip show pytest
+
+# If you are using a virtual environment - make sure it is activated (by running):
+|>  .\venv\Scripts\Activate
+
+to run result you also need scoop (if it is not already installed):
+|>  Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+|>  scoop install allure
+
+# For Running test via command (while Generating Allure raw-results):
+|>  pytest --alluredir=.\testing\allure-results .\testing\entrance_test.py
+
+# Generating the Allure report
+|>  allure generate .\testing\allure-results --clean
+
+
+# Alternatively, if you want to generate it in a specific location:
+|>  pytest --alluredir=C:\Users\USER\PySeSoucedemo\soucedemo_ui\testing\allure-results .\testing\entrance_test.py
+|>  allure generate C:\Users\USER\PySeSoucedemo\soucedemo_ui\testing\allure-results --clean
+
+# Opening the Allure report in a browser
+|>  allure open
+
+# To delete the contents of the .\testing\allure-results directory (before next run)
+|>  del .\testing\allure-results\*
+
+###########
+
+# To Run the File Locally - config Run-Params, add Argument:
+--alluredir=./allure-results
+
+# Generating & Opening the Allure report
+|>  allure serve allure-results
+
+###########
+
+cleanScr:  cls
+run test:  pytest --alluredir=C:\Users\USER\PySeSoucedemo\soucedemo_ui\testing\allure-results .\testing\entrance_test.py
+generate:  allure generate C:\Users\USER\PySeSoucedemo\soucedemo_ui\testing\allure-results --clean
+open rep:  allure open
