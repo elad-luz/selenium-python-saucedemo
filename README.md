@@ -1,4 +1,4 @@
-﻿# selenium-python-soucedemo
+﻿# selenium-python-saucedemo
 
 This Project is using Selenium with Python, to perform UI Test Automation on SauceDemo.com website:
 
