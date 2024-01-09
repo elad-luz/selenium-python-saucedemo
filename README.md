@@ -26,11 +26,11 @@ The primary goal of this project, is to perform a DEMO on my Test-Capability, wh
 
 Installation, Setup and Run Test (after preparing it properly):
 
-1. Pre-Condition - having PyCharm \ Visual-Studio-Code  (or any other alternative equivalent),  Java -&- Maven.
-2. Install all relevant dependencies: java etc.  (use chocolatey install or other).
+1. Pre-Condition - having PyCharm \ Visual-Studio-Code  (or any other alternative equivalent), Python etc.
+2. Install all relevant dependencies as stated in requirements.txt  (use chocolatey install or other).
 3. Clone this GIT repository to your local machine.
-4. To run java test locally, using VCS:
-    - RightClick on test.java (under: `src\...test`) -&- Click: Run Java -> See results in Terminal...
+4. To run Python test locally, using PyCharm \ VCS:
+    - RightClick on test (under: `<ROOT>\testing` e.g. entrance_test.py) -&- Click: Run -> See results in Terminal...
 5. Running the Selenium tests-cases locally, using the 'Terminal' (Command-Line):
     - Open Terminal CMD on the project-root (e.g. `cd C:\<PATH>\<ROOT>`).
     - Issue command  →  `pytest --alluredir=.\testing\allure-results .\testing\entrance_test.py`
