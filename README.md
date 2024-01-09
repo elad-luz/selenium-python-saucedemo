@@ -2,7 +2,7 @@
 
 This Project is using Selenium with Python, to perform UI Test Automation on SauceDemo.com website:
 
-1. Project demonstrates My ability to code UI Automation test-Scenarios on web-pages, using Selenium with Python.
+1. Project demonstrates My ability to code UI Automation Test-Scenarios on web-pages, using Selenium with Python.
 2. I follow the Page Object Model (POM) Architecture - including:
     - Base Page
     - Page Classes
